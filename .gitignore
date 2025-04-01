@@ -1,0 +1,16 @@
+__pycache__
+venv
+*.log
+
+server/config.txt
+simulate_clients.ps1
+
+agent_old.py
+client_old.py
+simulate_clients.ps1
+player_scores.json
+config.txt
+id_config.json
+
+# Do not ignore the template
+!id_config.json.template
