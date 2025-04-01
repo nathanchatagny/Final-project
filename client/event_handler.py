@@ -50,16 +50,16 @@ class EventHandler:
 
                 if self.manual_control:
                     # Change the train's direction based on the pressed keys
-                    if event.key == pygame.K_UP:
+                    if event.key == pygame.K_UP or event.key == pygame.K_w:
                         self.client.network.send_direction_change((0, -1))
-                    elif event.key == pygame.K_DOWN:
+                    elif event.key == pygame.K_DOWN or event.key == pygame.K_s:
                         self.client.network.send_direction_change((0, 1))
-                    elif event.key == pygame.K_LEFT:
+                    elif event.key == pygame.K_LEFT or event.key == pygame.K_a:
                         self.client.network.send_direction_change((-1, 0))
-                    elif event.key == pygame.K_RIGHT:
+                    elif event.key == pygame.K_RIGHT or event.key == pygame.K_d:
                         self.client.network.send_direction_change((1, 0))
                     # key D drops a wagon
-                    elif event.key == pygame.K_d:
+                    elif event.key == pygame.K_e:
                         self.client.network.send_drop_wagon_request()
 
                 # Quit the game if the Escape key is pressed
