@@ -195,3 +195,8 @@ Available log levels (from most to least verbose):
 - CRITICAL: Critical errors that prevent the game from running.
 
 Logs are displayed in the console and include timestamps, module name, and log level.# Final-project
+
+
+Commands:
+python server/server.py
+python client/client.py 128.178.17.112 5555
