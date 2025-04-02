@@ -42,7 +42,7 @@ TICK_RATE = 60
 SPAWN_SAFE_ZONE = 3
 SAFE_PADDING = 3
 
-RESPAWN_COOLDOWN = 5.0
+RESPAWN_COOLDOWN = 1.0
 
 # Constant for wagon delivery cooldown time (in seconds)
 DELIVERY_COOLDOWN_TIME = 0.1  # Adjust this value to control delivery speed
